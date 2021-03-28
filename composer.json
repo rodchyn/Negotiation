@@ -1,5 +1,5 @@
 {
-    "name": "willdurand/negotiation",
+    "name": "rodchyn/negotiation",
     "description": "Content Negotiation tools for PHP provided as a standalone library.",
     "keywords": [ "content", "negotiation", "format", "accept", "header" ],
     "license": "MIT",
@@ -26,5 +26,8 @@
     },
     "require-dev": {
         "symfony/phpunit-bridge": "^5.0"
+    },
+    "provide": {
+        "willdurand/negotiation": "2.0.3"
     }
 }
